@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Таблица совместимости продуктов</title>
+</head>
+<body>
+<table>
+  <caption>Таблица совместимости продуктов</caption>
+    <thead>
+        <tr>
+            <td>Название продукта</td>
+            <td>Хлеб, крупы, картофель</td>
+            <td>Фрукты кислые, помидоры</td>
+            <td>Фрукты полукислые</td>
+            <td>Фрукты сладкие, сухофрукты</td>
+            <td>Овощи зелёные</td>
+            <td>Овощи крахмалистые</td>
+            <td>Молоко</td>
+            <td>Творог, кисло-молочные продукты</td>
+            <td>Сыр</td>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td>Вывод</td>
+            <td colspan="9">ПИТАЙТЕСЬ ПРАВИЛЬНО!</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>Хлеб, крупы, картофель</td>
+            <td>*</td>
+            <td colspan="3">плохо совмстимы</td>
+            <td rowspan="4">хорошо совместимы</td>
+            <td>хорошо совместимы</td>
+            <td colspan="2">плохо совместимы</td>
+            <td>допустимо</td>
+        </tr>
+        <tr>
+            <td>Фрукты кислые, помидоры</td>
+            <td rowspan="3">Плохо совместимы</td>
+            <td>*</td>
+            <td>хорошо совместимы</td>
+            <td>допустимо</td>
+            <td rowspan="3">допустимо</td>
+            <td>плохо совместимы</td>
+            <td>допустимо</td>
+            <td>хорошо совместимы</td>
+        </tr>
+            <tr>
+            <td>Фрукты полукислые</td>
+            <td>хорошо совместимы</td>
+            <td>*</td>
+            <td>хорошо совместимы</td>
+            <td rowspan="2">допустимо</td>
+            <td rowspan="2">хорошо совместимы</td>
+            <td>допустимо</td>
+        </tr>
+        <tr>
+            <td>Фрукты сладкие, сухофрукты</td>
+            <td>допустимо</td>
+            <td>Хорошо совместимы</td>
+            <td>*</td>
+            <td>плохо совместимы</td>
+        </tr>
+        <tr>
+            <td>Овощи зелёные</td>
+            <td colspan="4">хорошо совместимы</td>
+            <td>*</td>
+            <td>хорошо совместимы</td>
+            <td>плохо совместимы</td>
+            <td rowspan="2">хорошо совместимы</td>
+            <td rowspan="2">хорошо совместимы</td>
+        </tr>
+        <tr>
+            <td>Овощи крахмалистые</td>
+            <td>хорошо совместимы</td>
+            <td colspan="3">допустимо</td>
+            <td>хорошо совместимы</td>
+            <td>*</td>
+            <td>допустимо</td>
+        </tr>
+            <tr>
+            <td>Молоко</td>
+            <td rowspan="2">плохо совместимы</td>
+            <td>плохо совместимы</td>
+            <td colspan="2">допустимо</td>
+            <td>плохо совместимы</td>
+            <td>допустимо</td>
+            <td>*</td>
+            <td colspan="2">плохо совместимы</td>
+        </tr>
+        <tr>
+            <td>Творог, кисло-молочные продукты</td>
+            <td>допустимо</td>
+            <td colspan="4">хорошо совместимы</td>
+            <td rowspan="2">плохо совместимы</td>
+            <td>*</td>
+            <td>хорошо совместимы</td>
+        </tr>
+        <tr>
+            <td>Сыр</td>
+            <td>допустимо</td>
+            <td>хорошо совместимы</td>
+            <td>допустимо</td>
+            <td>плохо совместимы</td>
+            <td colspan="2">хорошо совместимы</td>
+            <td>хорошо совместимы</td>
+            <td>*</td>
+        </tr>
+    </tbody>
+</table>
+<strong>Тест про котят</strong>
+<form action="/search.php">
+    <input type="search" value="Поиск" name="Поиск"><label for="Поиск"></label>
+    <br>
+    <input type="text" value="Имя" name="Имя"><label for="Имя"></label>
+    <br>
+    <input type="email" value="E-mail" name="E-mail"><label for="E-mail"></label>
+    <br>
+    <input type="password" value="Пароль" name="Пароль"><label for="Пароль"></label>
+    <br>
+    <input type="radio" name="Пол"><label for="Пол">м</label>
+    <input type="radio" name="Пол"><label for="Пол">ж</label>
+    <p>Телефон</p>
+    <input type="tel" name="Телефон">
+    <p>Любишь котят?</p>
+    <input type="checkbox" name="котята"><label for="котята">Да</label>
+    <input type="checkbox" name="котята"><label for="котята">Очень</label>
+    <p>Укажи степень своей любви к котятам</p>
+    <input type="range" name="степень"><label for="степень"></label>
+    <p>Нажми, если любишь котят</p>
+    <input type="button" name="Кнопка">Люблю котят
+    <p>Скинь картинку котёнка</p>
+    <input type="file" name="картинка"><label for="картинка"></label>
+    <p>Поделись ссылкой на сайт про котят</p>
+    <input type="url" name="сайт"><label for="сайт"></label>
+    <p>Сколько кошек у тебя будет к 30 годам?</p>
+    <input type="number" name="Кол-во" min="0" max="40" step="40"><label for="Кол-во"></label>
+    <br>
+    <p>Главное в жизни:</p>
+    <select name="Главное" size="5"><label for="Главное"></label>
+    <option value="Семья и дети">Семья и дети</option>
+    <option value="Карьера и деньги">Карьера и деньги</option>
+    <option value="Развлечения и отдых">Развлечения и отдых</option>
+    <option value="Наука и исследования">Наука и исследования</option>
+    <option value="Совершенствование мира">Совершенствование мира</option>
+    <option value="Саморазвитие">Саморазвитие</option>
+    <option value="Красота и искусство">Красота и искусство</option>
+    <option value="Слава и влияние">Слава и влияние</option>
+    <option value="Котята">Котята</option>
+    </select>
+    <br>
+    <input type="reset"> <input type="submit">
+    <br>
+</form>
+</body>
